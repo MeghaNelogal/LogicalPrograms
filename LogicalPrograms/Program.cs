@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("welcome to Logicl Programs");
         bool end = true;
-        Console.WriteLine("1. FibonacciSeries\n2. PerfectNumber\n3. End the program");
+        Console.WriteLine("1. FibonacciSeries\n2. PerfectNumber\n3. PrimeNumber\n4. End the program");
         while (end)
         {
             Console.WriteLine("\nTake an option to execute");
@@ -22,6 +22,10 @@ class Program
                     perfectNumber.CheckPerfectNumber();
                     break;
                 case 3:
+                    PrimeNumber primeNumber = new PrimeNumber();
+                    primeNumber.CheckPrimeNumber();
+                    break;
+                case 4:
                     end = false;
                     break;
 
