@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("welcome to Logicl Programs");
         bool end = true;
-        Console.WriteLine("1. FibonacciSeries\n2. PerfectNumber\n3. PrimeNumber\n4. ReverseNumber\n5 .End the program");
+        Console.WriteLine("1. FibonacciSeries\n2. PerfectNumber\n3. PrimeNumber\n4. ReverseNumber\n5. CouponNumbers\n6. End the program");
         while (end)
         {
             Console.WriteLine("\nTake an option to execute");
@@ -30,6 +30,10 @@ class Program
                     reverseNumber.CheckReverseNum();
                     break;
                 case 5:
+                    CouponNumbers couponNumbers = new CouponNumbers();
+                    couponNumbers.CheckCoupons();
+                    break;
+                case 6:
                     end = false;
                     break;
 
