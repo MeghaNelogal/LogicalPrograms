@@ -9,7 +9,9 @@
             //FibonacciSeries.CalculateFibonacciseries();
             //PerfectNumber.CheckPerfectNumber();
             //PrimeNumber.CheckPrimeNumber();
-            ReverseNumber.Reverse();
+            //ReverseNumber.Reverse();
+            CouponNumber.Coupon();
+            
         }
     }
 }
