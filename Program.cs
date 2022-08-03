@@ -10,7 +10,8 @@
             //PerfectNumber.CheckPerfectNumber();
             //PrimeNumber.CheckPrimeNumber();
             //ReverseNumber.Reverse();
-            CouponNumber.Coupon();
+           //CouponNumber.Coupon();
+           StopWatch.CheckStopWatch();
             
         }
     }
